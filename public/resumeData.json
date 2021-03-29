@@ -1,108 +1,107 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Ignacio Casal",
+    "description":"Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio2":"I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "ignaciocasaldev@gmail.com",
+    "phone": "+54-9-2974354026",
+    "github":"https://github.com/ignaciocasal",
+    "project":"https://github.com/ignaciocasal/github.ignaciocasal.io",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://github.ignaciocasal.io",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/ignaciocasal/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/ignaciocasal",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree":"Bachelor of Information Technology",
+        "school":"UNPSJB",
+        "graduated":"May 2020",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree":"English Certificate - Upper Intermediate (CEFR Level B2)",
+        "school":"IELTS",
+        "graduated":"Sep 2019",
+        "description":""
+      },
+      {
+        "degree":"Diploma of Programmer Analyst",
+        "school":"UNPSJB",
+        "graduated":"Dic 2017",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Vimagix",
+        "title":"Front End Web Developer (Remote)",
+        "years":"Mar 2018 - Present",
+        "description":"Web Applications development and maintenance using Angular, Codeigniter and Laravel."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Mercado Expreso (Startup)",
+        "title":"Front End Web Developer",
+        "years":"Feb 2019 – Dec 2019",
+        "description":"Front end development of numerous web applications using Angular 7, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+      },
+      {
+        "company":"GlobalTurn (Startup)",
+        "title":"Front End Web Developer",
+        "years":"Apr 2018 – Feb 2019",
+        "description":"Front end development of web applications using Angular 5, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+      },
+      {
+        "company":"Municipality of Comodoro Rivadavia",
+        "title":"Web Development Intern",
+        "years":"Sep 2018 – Dec 2018",
+        "description":"Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
       }
     ],
     "skills":[
       {
-        "name":"Python",
+        "name":"React",
         "level":"60%"
       },
       {
-        "name":"VueJs",
+        "name":"Angular",
         "level":"55%"
       },
       {
-        "name":"ReactJs",
+        "name":"Javascript",
         "level":"50%"
       },
       {
-        "name":"CSS",
+        "name":"Typescript",
         "level":"90%"
       },
       {
-        "name":"PHP",
+        "name":"Git",
         "level":"80%"
       },
       {
-        "name":"Swift",
+        "name":"Scrum",
         "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
       }
     ]
   },
