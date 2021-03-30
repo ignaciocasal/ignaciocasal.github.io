@@ -1,183 +1,130 @@
 {
   "main": {
-    "name":"Ignacio Casal",
-    "description":"Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
-    "image":"profilepic.jpg",
-    "bio":"I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
-    "bio2":"I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Ignacio Casal",
+    "description": "Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "image": "profilepic.jpg",
+    "bio": "I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ignaciocasaldev@gmail.com",
     "phone": "+54-9-2974354026",
-    "github":"https://github.com/ignaciocasal",
-    "project":"https://github.com/ignaciocasal/github.ignaciocasal.io",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+    "github": "https://github.com/ignaciocasal",
+    "project": "https://github.com/ignaciocasal/github.ignaciocasal.io",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://github.ignaciocasal.io",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/ignaciocasal/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ignaciocasal/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/ignaciocasal",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/ignaciocasal",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "education":[
+  "resume": {
+    "education": [
       {
-        "degree":"Bachelor of Information Technology",
-        "school":"UNPSJB",
-        "graduated":"May 2020",
-        "description":""
+        "degree": "Bachelor of Information Technology",
+        "school": "UNPSJB",
+        "graduated": "May 2020",
+        "description": ""
       },
       {
-        "degree":"English Certificate - Upper Intermediate (CEFR Level B2)",
-        "school":"IELTS",
-        "graduated":"Sep 2019",
-        "description":""
+        "degree": "English Certificate - Upper Intermediate (CEFR Level B2)",
+        "school": "IELTS",
+        "graduated": "Sep 2019",
+        "description": ""
       },
       {
-        "degree":"Diploma of Programmer Analyst",
-        "school":"UNPSJB",
-        "graduated":"Dic 2017",
-        "description":""
+        "degree": "Diploma of Programmer Analyst",
+        "school": "UNPSJB",
+        "graduated": "Dic 2017",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Vimagix",
-        "title":"Front End Web Developer (Remote)",
-        "years":"Mar 2018 - Present",
-        "description":"Web Applications development and maintenance using Angular, Codeigniter and Laravel."
+        "company": "Vimagix",
+        "title": "Front End Web Developer (Remote)",
+        "years": "Mar 2018 - Present",
+        "description": "Web Applications development and maintenance using Angular, Codeigniter and Laravel."
       },
       {
-        "company":"Mercado Expreso (Startup)",
-        "title":"Front End Web Developer",
-        "years":"Feb 2019 – Dec 2019",
-        "description":"Front end development of numerous web applications using Angular 7, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+        "company": "Mercado Expreso (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Feb 2019 – Dec 2019",
+        "description": "Front end development of numerous web applications using Angular 7, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
       },
       {
-        "company":"GlobalTurn (Startup)",
-        "title":"Front End Web Developer",
-        "years":"Apr 2018 – Feb 2019",
-        "description":"Front end development of web applications using Angular 5, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+        "company": "GlobalTurn (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Apr 2018 – Feb 2019",
+        "description": "Front end development of web applications using Angular 5, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
       },
       {
-        "company":"Municipality of Comodoro Rivadavia",
-        "title":"Web Development Intern",
-        "years":"Sep 2018 – Dec 2018",
-        "description":"Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
-      }
-    ],
-    "skills":[
-      {
-        "name":"React",
-        "level":"60%"
-      },
-      {
-        "name":"Angular",
-        "level":"55%"
-      },
-      {
-        "name":"Javascript",
-        "level":"50%"
-      },
-      {
-        "name":"Typescript",
-        "level":"90%"
-      },
-      {
-        "name":"Git",
-        "level":"80%"
-      },
-      {
-        "name":"Scrum",
-        "level":"50%"
+        "company": "Municipality of Comodoro Rivadavia",
+        "title": "Web Development Intern",
+        "years": "Sep 2018 – Dec 2018",
+        "description": "Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "description": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "demo": "https://www.canadianwanderlust.com",
+        "sourcecode": "https://www.canadianwanderlust.com",
+        "skills": [
+          {
+            "icon": "devicon-react-plain-wordmark"
+          },
+          {
+            "icon": "devicon-angularjs-plain-wordmark"
+          }
+        ]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Canadian Wanderlust",
+        "description": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "demo": "https://www.canadianwanderlust.com",
+        "sourcecode": "https://www.canadianwanderlust.com",
+        "skills": [
+          {
+            "icon": "devicon-react-plain-wordmark"
+          },
+          {
+            "icon": "devicon-angularjs-plain-wordmark"
+          }
+        ]
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "description": "My Travel Blog for my post-university travels",
+        "image": "01.jpg",
+        "demo": "https://www.canadianwanderlust.com",
+        "sourcecode": "https://www.canadianwanderlust.com",
+        "skills": [
+          {
+            "icon": "devicon-react-plain-wordmark"
+          },
+          {
+            "icon": "devicon-angularjs-plain-wordmark"
+          }
+        ]
       }
     ]
   }

@@ -25,6 +25,21 @@
 
 }
 
+@media only screen and (max-width: 956px) {
+    .work-item {
+        flex-direction: column;
+    }
+
+    .work-item .art-description {
+        margin: 20px 0 0;
+    }
+
+    #portfolio-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
@@ -349,6 +364,10 @@
         max-width: 85%;
     }
 
+    .projects {
+        width: 88%;
+    }
+
 
     /* Testimonials Section
     ----------------------------------------------------------------------- */
@@ -474,8 +493,41 @@
         font-size: 18px;
         line-height: 54px;
     }
+}
 
+@media screen and (max-width: 680px) {
+    ul.actions:not(.fixed) {
+        -moz-flex-flow: column-reverse wrap;
+        -webkit-flex-flow: column-reverse wrap;
+        -ms-flex-flow: column-reverse wrap;
+        flex-flow: column-reverse wrap;
+        width: 100% !important;
+    }
 
+    ul.actions:not(.fixed) li:first-child {
+        padding-top: 0;
+    }
+
+    ul.actions:not(.fixed) li {
+        -moz-flex-grow: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+        flex-grow: 1;
+        -moz-flex-shrink: 1;
+        -webkit-flex-shrink: 1;
+        -ms-flex-shrink: 1;
+        flex-shrink: 1;
+        text-align: center;
+        width: 100%;
+    }
+
+    .project-button {
+        width: 100%;
+    }
+
+    .portfolio-button {
+        width: 100%;
+    }
 }
 
 /* mobile narrow

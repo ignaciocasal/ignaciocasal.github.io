@@ -1,15 +1,7 @@
 import React, {Component} from "react";
+import Skill from "./Skill";
 
 class Resume extends Component {
-    getRandomColor() {
-        let letters = "0123456789ABCDEF";
-        let color = "#";
-        for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-    }
-
     render() {
         if (!this.props.data) return null;
 
@@ -41,18 +33,20 @@ class Resume extends Component {
             );
         });
 
-        const skills = this.props.data.skills.map(skills => {
-            const backgroundColor = this.getRandomColor();
-            const className = "bar-expand " + skills.name.toLowerCase();
-            const width = skills.level;
-
-            return (
-                <li key={skills.name}>
-                    <span style={{width, backgroundColor}} className={className}/>
-                    <em>{skills.name}</em>
-                </li>
-            );
-        });
+        const skills = (
+            <div className="languages skills show-on-scroll">
+                <Skill icon='devicon-react-plain-wordmark'/>
+                <Skill icon='devicon-angularjs-plain'/>
+                <Skill icon='devicon-javascript-plain'/>
+                <Skill icon='devicon-typescript-plain'/>
+                <Skill icon='devicon-git-plain-wordmark'/>
+                <Skill icon='devicon-webpack-plain-wordmark'/>
+                <Skill icon='devicon-bootstrap-plain-wordmark'/>
+                <Skill icon='devicon-html5-plain-wordmark'/>
+                <Skill icon='devicon-css3-plain-wordmark'/>
+                <Skill icon='devicon-sass-original'/>
+            </div>
+        );
 
         return (
             <section id="resume">
@@ -89,18 +83,7 @@ class Resume extends Component {
 
                     <div className="nine columns main-col">
                         <section id="four" className="skills">
-                            <div className="languages skills show-on-scroll">
-                                <i className="devicon-react-plain-wordmark colored technology"></i>
-                                <i className="devicon-angularjs-plain colored technology"></i>
-                                <i className="devicon-javascript-plain colored technology"></i>
-                                <i className="devicon-typescript-plain colored technology"></i>
-                                <i className="devicon-git-plain-wordmark colored technology"></i>
-                                <i className="devicon-webpack-plain-wordmark colored technology"></i>
-                                <i className="devicon-bootstrap-plain-wordmark colored technology"></i>
-                                <i className="devicon-html5-plain-wordmark colored technology"></i>
-                                <i className="devicon-css3-plain-wordmark colored technology"></i>
-                                <i className="devicon-sass-original colored technology"></i>
-                            </div>
+                            {skills}
                         </section>
                     </div>
                 </div>
