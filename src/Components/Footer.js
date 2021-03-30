@@ -20,7 +20,7 @@ class Footer extends Component {
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>
 
-            <ul className="copyright">
+            {/*<ul className="copyright">
               <li>&copy; Copyright 2021 Nordic Giant</li>
               <li>
                 Design by{" "}
@@ -28,7 +28,7 @@ class Footer extends Component {
                   Styleshout
                 </a>
               </li>
-            </ul>
+            </ul>*/}
           </div>
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">

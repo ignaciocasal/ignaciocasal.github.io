@@ -5,14 +5,14 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    const resumeDownload = this.props.data.resumedownload;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg type="cobweb" color='#CC9CFF' bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -28,7 +28,7 @@ class Header extends Component {
                 Home
               </a>
             </li>
-            
+
             <li>
               <a className="smoothscroll" href="#about">
                 About
@@ -46,7 +46,7 @@ class Header extends Component {
                 Works
               </a>
             </li>
-            
+
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact
@@ -58,14 +58,14 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h3>{description}</h3>
             <hr />
             <ul className="social">
-              <a href={project} className="button btn project-btn">
-                <i className="fa fa-book"></i>Project
+              <a href={resumeDownload} target="_blank" className="button btn project-btn">
+                <i className="fa fa-book"/>Resume
               </a>
-              <a href={github} className="button btn github-btn">
-                <i className="fa fa-github"></i>Github
+              <a href={github} target="_blank" className="button btn github-btn">
+                <i className="fa fa-github"/>Github
               </a>
             </ul>
           </div>
@@ -73,7 +73,7 @@ class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+            <i className="icon-down-circle"/>
           </a>
         </p>
       </header>
