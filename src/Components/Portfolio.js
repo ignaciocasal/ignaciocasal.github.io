@@ -1,7 +1,6 @@
 import React, {Component} from "react";
-import Zmage from "react-zmage";
-import Skill from "./Skill";
 import LinkButton from "./LinkButton";
+import {Label} from "semantic-ui-react";
 
 let id = 0;
 
@@ -9,25 +8,12 @@ class Portfolio extends Component {
     render() {
         if (!this.props.data) return null;
 
-        const projects = this.props.data.projects.map(function (projects) {
-            let projectImage = "images/portfolio/" + projects.image;
-
-            return (
-                <div key={id++} className="columns portfolio-item">
-                    <div className="item-wrap">
-                        <Zmage alt={projects.title} src={projectImage}/>
-                        <div style={{textAlign: "center"}}>{projects.title}</div>
-                    </div>
-                </div>
-            );
-        });
-
-        const projectSkills = (project) => {
+        const techStack = (project) => {
             if (!project.skills) {
                 return
             }
             return project.skills.map(skill => {
-                return <Skill icon={skill.icon} key={id++}/>
+                return <Label color={skill.color} key={id++}>{skill.name}</Label>
             });
         }
 
@@ -50,20 +36,20 @@ class Portfolio extends Component {
             return (
                 <div key={id++} className="article-wrapper">
                     <article className="col-12 col-12-xsmall work-item">
-                        <div>
+                        <div className="image fit thumb">
                             {/*<Zmage alt={project.title} src={projectImage} className="image fit thumb"/>*/}
-                            <img src={projectImage} alt={project.title} className="image fit thumb"/>
+                            <img src={projectImage} alt={project.title}/>
                         </div>
                         <div className="art-description">
                             <div className="text-wrapper">
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
                             </div>
+                            <Label.Group size='big'>
+                                {techStack(project)}
+                            </Label.Group>
                             <ul className="actions">
                                 {actions(project)}
-                                <div className="languages">
-                                    {projectSkills(project)}
-                                </div>
                             </ul>
                         </div>
                     </article>

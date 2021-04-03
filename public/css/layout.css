@@ -462,31 +462,8 @@ section .skills .technology:hover {
    display: inline-block;
    position: relative;
 }
-.image:before {
-   -moz-transition: opacity 0.2s ease-in-out;
-   -webkit-transition: opacity 0.2s ease-in-out;
-   -ms-transition: opacity 0.2s ease-in-out;
-   transition: opacity 0.2s ease-in-out;
-   background: url("../images/overlay-bg.png");
-   border-radius: 0.35em;
-   content: "";
-   display: block;
-   height: 100%;
-   left: 0;
-   opacity: 0.5;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
 .image.thumb {
    text-align: center;
-}
-.image.thumb:hover:after {
-   opacity: 1;
-}
-.image.thumb:hover:before {
-   background: url("images/overlay-bg.png"), url("images/overlay-bg.png");
-   opacity: 1;
 }
 .image img {
    border-radius: 0.35em;
