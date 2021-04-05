@@ -23,7 +23,7 @@ const Contact = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (isValidForm()){
+        if (isValidForm()) {
             sendFeedback({
                     from_name: data.name,
                     reply_to: data.email,
@@ -124,10 +124,9 @@ const Contact = (props) => {
                         </fieldset>
                     </form>
 
-                    <div id="message-warning"> Something went wrong. Try again.</div>
-                    <div id="message-required"> Please, complete the required fields.</div>
-                    <div id="message-success">
-                        <i className="fa fa-check"/> Your message was sent, thank you!
+                    <div id="message-warning"><i className="fa fa-exclamation-circle"/> Something went wrong. Try again.</div>
+                    <div id="message-required"><i className="fa fa-exclamation-circle"/> Please, complete the required fields.</div>
+                    <div id="message-success"><i className="fa fa-check"/> Your message was sent, thank you!
                     </div>
                 </div>
             </div>
