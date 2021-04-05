@@ -1,112 +1,134 @@
-import React, { Component } from "react";
+import React, {useState} from "react";
 
-class Contact extends Component {
-  render() {
-    if (!this.props.data) return null;
-    const {name} = this.props.data;
-    const {street, city, state, zip} = this.props.data.address;
-    const {phone, email, contactmessage: message} = this.props.data;
+const Contact = (props) => {
+    const templateId = 'template_ewii9fr';
+    const serviceId = 'service_f8ec5sl';
+
+    const [data, setData] = useState({
+        name: '',
+        email: '',
+        contact: '',
+        subject: '',
+        message: ''
+    })
+
+    if (!props.data) return null;
+
+    const handleInputChange = (event) => {
+        setData({
+            ...data,
+            [event.target.name]: event.target.value
+        })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (isValidForm()) {
+            sendFeedback({
+                    from_name: data.name,
+                    reply_to: data.email,
+                    message: data.message,
+                    subject: data.subject
+                }
+            )
+        } else {
+            document.getElementById('message-required').style.display = 'block';
+        }
+    }
+
+    const isValidForm = () => {
+        return !(!data.name || !data.email || !data.message);
+    }
+
+//Custom EmailJS method
+    const sendFeedback = (data) => {
+        window.emailjs.send(serviceId, templateId, data)
+            .then(res => {
+                document.getElementById('message-success').style.display = 'block';
+            })
+            .catch(err => {
+                console.error('Email Error:', err)
+                document.getElementById('message-warning').style.display = 'block';
+            })
+    }
 
     return (
-      <section id="contact">
-        <div className="row section-head">
-          <div className="two columns header-col">
-            <h1>
-              <span>Get In Touch.</span>
-            </h1>
-          </div>
-
-          <div className="ten columns">
-            <p className="lead">{message}</p>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="eight columns">
-            <form action="" method="post" id="contactForm" name="contactForm">
-              <fieldset>
-                <div>
-                  <label htmlFor="contactName">
-                    Name <span className="required">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactName"
-                    name="contactName"
-                    onChange={this.handleChange}
-                  />
+        <section id="contact">
+            <div className="section-head">
+                <div className="text-center header-col">
+                    <h1>
+                        Get In Touch.
+                    </h1>
                 </div>
-
-                <div>
-                  <label htmlFor="contactEmail">
-                    Email <span className="required">*</span>
-                  </label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactEmail"
-                    name="contactEmail"
-                    onChange={this.handleChange}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactSubject"
-                    name="contactSubject"
-                    onChange={this.handleChange}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="contactMessage">
-                    Message <span className="required">*</span>
-                  </label>
-                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                </div>
-
-                <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
-                </div>
-              </fieldset>
-            </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check"></i>Your message was sent, thank you!
-              <br />
             </div>
-          </div>
 
-          <aside className="four columns footer-widgets">
-            <div className="widget widget_contact">
-              <h4>Contact Details</h4>
-              <p className="address">
-                {name}
-                {/*<br />
-                {street} <br />
-                {city}, {state} {zip}*/}
-                <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
-              </p>
+            <div className="row">
+                <div className="six centered columns">
+                    <form onSubmit={handleSubmit} id="contactForm" name="contactForm">
+                        <fieldset>
+                            <div>
+                                <label htmlFor="name">
+                                    Name <span className="required">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    size="35"
+                                    id="name"
+                                    name="name"
+                                    onChange={handleInputChange}
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="email">
+                                    Email <span className="required">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    size="35"
+                                    id="email"
+                                    name="email"
+                                    onChange={handleInputChange}
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="subject">Subject</label>
+                                <input
+                                    type="text"
+                                    size="35"
+                                    id="subject"
+                                    name="subject"
+                                    onChange={handleInputChange}
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="message">
+                                    Message <span className="required">*</span>
+                                </label>
+                                <textarea
+                                    rows="10"
+                                    id="message"
+                                    name="message"
+                                    onChange={handleInputChange}>
+                                </textarea>
+                            </div>
+
+                            <div className="align-center">
+                                <button type="submit" className="submit">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div id="message-warning"><i className="fa fa-exclamation-circle"/> Something went wrong. Try again.</div>
+                    <div id="message-required"><i className="fa fa-exclamation-circle"/> Please, complete the required fields.</div>
+                    <div id="message-success"><i className="fa fa-check"/> Your message was sent, thank you!
+                    </div>
+                </div>
             </div>
-          </aside>
-        </div>
-      </section>
+        </section>
     );
-  }
-}
+};
 
 export default Contact;

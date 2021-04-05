@@ -1,18 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import ParticlesBg from "particles-bg";
+import SocialLinks from "./SocialLinks";
 
-class Header extends Component {
-  render() {
-    if (!this.props.data) return null;
+const Header = ({data}) => {
+  if (!data) return null;
+  const {name, description, social} = data;
 
-    const resumeDownload = this.props.data.resumedownload;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
-
-    return (
+  return (
       <header id="home">
-        <ParticlesBg type="cobweb" color='#CC9CFF' bg={true} />
+        <ParticlesBg type="cobweb" color='#CC9CFF' bg={true}/>
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -59,15 +55,16 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
             <h3>{description}</h3>
-            <hr />
-            <ul className="social">
-              <a href={resumeDownload} target="_blank" className="button btn project-btn">
+            <hr/>
+           {/*<ul className="social">
+              <a href={resumedownload} target="_blank" className="button btn project-btn" rel="noreferrer">
                 <i className="fa fa-book"/>Resume
               </a>
-              <a href={github} target="_blank" className="button btn github-btn">
+              <a href={github} target="_blank" className="button btn github-btn" rel="noreferrer">
                 <i className="fa fa-github"/>Github
               </a>
-            </ul>
+            </ul>*/}
+            <SocialLinks networks={social}/>
           </div>
         </div>
 
@@ -77,8 +74,7 @@ class Header extends Component {
           </a>
         </p>
       </header>
-    );
-  }
-}
+  );
+};
 
 export default Header;

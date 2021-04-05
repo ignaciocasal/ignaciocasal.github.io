@@ -5,9 +5,8 @@
     "image": "profilepic.jpg",
     "bio": "I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
     "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "ignaciocasaldev@gmail.com",
-    "phone": "+54-9-2974354026",
+    "email": "",
+    "phone": "",
     "github": "https://github.com/ignaciocasal",
     "project": "https://github.com/ignaciocasal/github.ignaciocasal.io",
     "address": {
@@ -17,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://github.ignaciocasal.io",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1kUymkEBEeY84LwSlQKSZutfpPo0cnwtm/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -54,7 +53,7 @@
     ],
     "work": [
       {
-        "company": "Vimagix",
+        "company": "Vimagix (Los Ángeles - USA)",
         "title": "Front End Web Developer (Remote)",
         "years": "Mar 2018 - Present",
         "description": "Web Applications development and maintenance using Angular, Codeigniter and Laravel."
@@ -82,47 +81,194 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "demo": "https://www.canadianwanderlust.com",
-        "sourcecode": "https://www.canadianwanderlust.com",
+        "title": "Simple CRUD",
+        "description": "SPA that handles Create, Read, Update, and Delete operations using React and JSON Server REST API.",
+        "image": "01.png",
+        "demo": "https://react-simplecrud.netlify.app",
+        "sourcecode": "https://github.com/ignaciocasal/React-SimpleCRUD",
         "skills": [
           {
-            "icon": "devicon-react-plain-wordmark"
+            "name": "React JS",
+            "color": "blue"
           },
           {
-            "icon": "devicon-angularjs-plain-wordmark"
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "React Router",
+            "color": "pink"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Redux Thunk",
+            "color": "purple"
+          },
+          {
+            "name": "Google OAuth",
+            "color": "red"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Formik",
+            "color": "orange"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
           }
         ]
       },
       {
-        "title": "Canadian Wanderlust",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "demo": "https://www.canadianwanderlust.com",
-        "sourcecode": "https://www.canadianwanderlust.com",
+        "title": "Random Users",
+        "description": "SPA that displays sixteen random users on every refresh by using Random User Generator API. It was built using React, Node.js, Express and Webpack.",
+        "image": "02.png",
+        "demo": "https://react-node-random-users.netlify.app/",
+        "sourcecode": "https://github.com/ignaciocasal/ReactNode-RandomUsers",
         "skills": [
           {
-            "icon": "devicon-react-plain-wordmark"
+            "name": "React JS",
+            "color": "blue"
           },
           {
-            "icon": "devicon-angularjs-plain-wordmark"
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Node.js",
+            "color": "green"
+          },
+          {
+            "name": "Express",
+            "color": "green"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
+          },
+          {
+            "name": "Webpack",
+            "color": "orange"
           }
         ]
       },
       {
-        "title": "Canadian Wanderlust",
-        "description": "My Travel Blog for my post-university travels",
-        "image": "01.jpg",
-        "demo": "https://www.canadianwanderlust.com",
-        "sourcecode": "https://www.canadianwanderlust.com",
+        "title": "Fitness Tracker",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "03.png",
+        "demo": "https://angularfitnesstracker-60f50.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Fitness-Tracker",
         "skills": [
           {
-            "icon": "devicon-react-plain-wordmark"
+            "name": "Angular",
+            "color": "red"
           },
           {
-            "icon": "devicon-angularjs-plain-wordmark"
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "NgRx",
+            "color": "violet"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
+          }
+        ]
+      },
+      {
+        "title": "Image Gallery",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "04.png",
+        "demo": "https://patagonianchallenge.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Image-Gallery",
+        "skills": [
+          {
+            "name": "Angular",
+            "color": "red"
+          },
+          {
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "File Uploader",
+            "color": "brown"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
           }
         ]
       }
