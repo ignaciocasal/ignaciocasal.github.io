@@ -1,184 +1,276 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+    "name": "Ignacio Casal",
+    "description": "Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "image": "profilepic.jpg",
+    "bio": "I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
+    "email": "",
+    "phone": "",
+    "github": "https://github.com/ignaciocasal",
+    "project": "https://github.com/ignaciocasal/github.ignaciocasal.io",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "http://github.ignaciocasal.io",
+    "resumedownload": "https://drive.google.com/file/d/1kUymkEBEeY84LwSlQKSZutfpPo0cnwtm/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ignaciocasal/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/ignaciocasal",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree": "Bachelor of Information Technology",
+        "school": "UNPSJB",
+        "graduated": "May 2020",
+        "description": ""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree": "English Certificate - Upper Intermediate (CEFR Level B2)",
+        "school": "IELTS",
+        "graduated": "Sep 2019",
+        "description": ""
+      },
+      {
+        "degree": "Diploma of Programmer Analyst",
+        "school": "UNPSJB",
+        "graduated": "Dic 2017",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Vimagix (Los Ángeles - USA)",
+        "title": "Front End Web Developer (Remote)",
+        "years": "Mar 2018 - Present",
+        "description": "Web Applications development and maintenance using Angular, Codeigniter and Laravel."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
+        "company": "Mercado Expreso (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Feb 2019 – Dec 2019",
+        "description": "Front end development of numerous web applications using Angular 7, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "company": "GlobalTurn (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Apr 2018 – Feb 2019",
+        "description": "Front end development of web applications using Angular 5, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "company": "Municipality of Comodoro Rivadavia",
+        "title": "Web Development Intern",
+        "years": "Sep 2018 – Dec 2018",
+        "description": "Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Simple CRUD",
+        "description": "SPA that handles Create, Read, Update, and Delete operations using React and JSON Server REST API.",
+        "image": "01.png",
+        "demo": "https://react-simplecrud.netlify.app",
+        "sourcecode": "https://github.com/ignaciocasal/React-SimpleCRUD",
+        "skills": [
+          {
+            "name": "React JS",
+            "color": "blue"
+          },
+          {
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "React Router",
+            "color": "pink"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Redux Thunk",
+            "color": "purple"
+          },
+          {
+            "name": "Google OAuth",
+            "color": "red"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Formik",
+            "color": "orange"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
+          }
+        ]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Random Users",
+        "description": "SPA that displays sixteen random users on every refresh by using Random User Generator API. It was built using React, Node.js, Express and Webpack.",
+        "image": "02.png",
+        "demo": "https://react-node-random-users.netlify.app/",
+        "sourcecode": "https://github.com/ignaciocasal/ReactNode-RandomUsers",
+        "skills": [
+          {
+            "name": "React JS",
+            "color": "blue"
+          },
+          {
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Node.js",
+            "color": "green"
+          },
+          {
+            "name": "Express",
+            "color": "green"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
+          },
+          {
+            "name": "Webpack",
+            "color": "orange"
+          }
+        ]
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Fitness Tracker",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "03.png",
+        "demo": "https://angularfitnesstracker-60f50.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Fitness-Tracker",
+        "skills": [
+          {
+            "name": "Angular",
+            "color": "red"
+          },
+          {
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "NgRx",
+            "color": "violet"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
+          }
+        ]
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Image Gallery",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "04.png",
+        "demo": "https://patagonianchallenge.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Image-Gallery",
+        "skills": [
+          {
+            "name": "Angular",
+            "color": "red"
+          },
+          {
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "File Uploader",
+            "color": "brown"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
+          }
+        ]
       }
     ]
   }
