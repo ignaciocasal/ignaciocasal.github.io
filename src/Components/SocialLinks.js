@@ -4,7 +4,7 @@ const SocialLinks = props => {
 
     const renderNetworks = props.networks.map(network => (
         <li key={network.name}>
-            <a href={network.url}>
+            <a href={network.url} target="_blank">
                 <i className={network.className}/>
             </a>
         </li>
