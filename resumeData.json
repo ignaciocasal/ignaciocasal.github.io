@@ -3,7 +3,7 @@
     "name": "Ignacio Casal",
     "description": "Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
     "image": "profilepic.jpg",
-    "bio": "I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio": "I’m a self-motivated, productive Front End Developer with more than three years of experience.",
     "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
     "email": "",
     "phone": "",
@@ -53,8 +53,14 @@
     ],
     "work": [
       {
-        "company": "Vimagix (Los Ángeles - USA)",
+        "company": "GM2dev",
         "title": "Front End Web Developer (Remote)",
+        "years": "May 2021 - Present",
+        "description": "Web Applications development and maintenance for large-size USA company using technologies such us React, Redux, Webpack and Jest."
+      },
+      {
+        "company": "Vimagix (Los Ángeles - USA)",
+        "title": "Front End Web Developer (Freelance)",
         "years": "Mar 2018 - Present",
         "description": "Web Applications development and maintenance using Angular, Codeigniter and Laravel."
       },
