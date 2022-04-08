@@ -1,0 +1,277 @@
+{
+  "main": {
+    "name": "Ignacio Casal",
+    "description": "Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "image": "profilepic.jpg",
+    "bio": "I’m a self-motivated, productive Front End Developer with three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
+    "email": "",
+    "phone": "",
+    "github": "https://github.com/ignaciocasal",
+    "project": "https://github.com/ignaciocasal/github.ignaciocasal.io",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://github.ignaciocasal.io",
+    "resumedownload": "https://drive.google.com/file/d/1kUymkEBEeY84LwSlQKSZutfpPo0cnwtm/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ignaciocasal/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ignaciocasal",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "degree": "Bachelor of Information Technology",
+        "school": "UNPSJB",
+        "graduated": "May 2020",
+        "description": ""
+      },
+      {
+        "degree": "English Certificate - Upper Intermediate (CEFR Level B2)",
+        "school": "IELTS",
+        "graduated": "Sep 2019",
+        "description": ""
+      },
+      {
+        "degree": "Diploma of Programmer Analyst",
+        "school": "UNPSJB",
+        "graduated": "Dic 2017",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Vimagix (Los Ángeles - USA)",
+        "title": "Front End Web Developer (Remote)",
+        "years": "Mar 2018 - Present",
+        "description": "Web Applications development and maintenance using Angular, Codeigniter and Laravel."
+      },
+      {
+        "company": "Mercado Expreso (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Feb 2019 – Dec 2019",
+        "description": "Front end development of numerous web applications using Angular 7, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+      },
+      {
+        "company": "GlobalTurn (Startup)",
+        "title": "Front End Web Developer",
+        "years": "Apr 2018 – Feb 2019",
+        "description": "Front end development of web applications using Angular 5, Typescript, REST API, Flask, Python 3 and Scrum as agile development methodology."
+      },
+      {
+        "company": "Municipality of Comodoro Rivadavia",
+        "title": "Web Development Intern",
+        "years": "Sep 2018 – Dec 2018",
+        "description": "Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Simple CRUD",
+        "description": "SPA that handles Create, Read, Update, and Delete operations using React and JSON Server REST API.",
+        "image": "01.png",
+        "demo": "https://react-simplecrud.netlify.app",
+        "sourcecode": "https://github.com/ignaciocasal/React-SimpleCRUD",
+        "skills": [
+          {
+            "name": "React JS",
+            "color": "blue"
+          },
+          {
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "React Router",
+            "color": "pink"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Redux Thunk",
+            "color": "purple"
+          },
+          {
+            "name": "Google OAuth",
+            "color": "red"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Formik",
+            "color": "orange"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
+          }
+        ]
+      },
+      {
+        "title": "Random Users",
+        "description": "SPA that displays sixteen random users on every refresh by using Random User Generator API. It was built using React, Node.js, Express and Webpack.",
+        "image": "02.png",
+        "demo": "https://react-node-random-users.netlify.app/",
+        "sourcecode": "https://github.com/ignaciocasal/ReactNode-RandomUsers",
+        "skills": [
+          {
+            "name": "React JS",
+            "color": "blue"
+          },
+          {
+            "name": "React Hooks",
+            "color": "teal"
+          },
+          {
+            "name": "Redux",
+            "color": "violet"
+          },
+          {
+            "name": "Node.js",
+            "color": "green"
+          },
+          {
+            "name": "Express",
+            "color": "green"
+          },
+          {
+            "name": "API REST",
+            "color": "brown"
+          },
+          {
+            "name": "Semantic UI",
+            "color": "teal"
+          },
+          {
+            "name": "ES6+",
+            "color": "yellow"
+          },
+          {
+            "name": "Axios",
+            "color": "pink"
+          },
+          {
+            "name": "Webpack",
+            "color": "orange"
+          }
+        ]
+      },
+      {
+        "title": "Fitness Tracker",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "03.png",
+        "demo": "https://angularfitnesstracker-60f50.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Fitness-Tracker",
+        "skills": [
+          {
+            "name": "Angular",
+            "color": "red"
+          },
+          {
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "NgRx",
+            "color": "violet"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
+          }
+        ]
+      },
+      {
+        "title": "Image Gallery",
+        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "image": "04.png",
+        "demo": "https://patagonianchallenge.web.app",
+        "sourcecode": "https://github.com/ignaciocasal/Angular-Image-Gallery",
+        "skills": [
+          {
+            "name": "Angular",
+            "color": "red"
+          },
+          {
+            "name": "Angular Forms",
+            "color": "teal"
+          },
+          {
+            "name": "Angular Material",
+            "color": "pink"
+          },
+          {
+            "name": "Angular Router",
+            "color": "green"
+          },
+          {
+            "name": "File Uploader",
+            "color": "brown"
+          },
+          {
+            "name": "RxJS",
+            "color": "purple"
+          },
+          {
+            "name": "TypeScript",
+            "color": "blue"
+          },
+          {
+            "name": "Firebase",
+            "color": "orange"
+          },
+          {
+            "name": "Responsive Design",
+            "color": "olive"
+          }
+        ]
+      }
+    ]
+  }
+}
