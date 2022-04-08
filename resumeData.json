@@ -229,9 +229,8 @@
       },
       {
         "title": "Image Gallery",
-        "description": "This is a responsive web application that allows users track their fitness activity. It was built using Angular and Firebase.",
+        "description": "This is a responsive web application that displays a gallery with photos and a table of products. It was built using Angular and Firebase.",
         "image": "04.png",
-        "demo": "https://patagonianchallenge.web.app",
         "sourcecode": "https://github.com/ignaciocasal/Angular-Image-Gallery",
         "skills": [
           {
