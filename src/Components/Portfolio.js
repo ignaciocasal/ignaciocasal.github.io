@@ -20,9 +20,9 @@ class Portfolio extends Component {
         const actions = (project) => {
             return (
                 <div className="actions-wrapper">
-                    <li>
+                    {project.demo && <li>
                         <LinkButton className="project-btn" icon='globe' text='View Demo' url={project.demo}/>
-                    </li>
+                    </li>}
                     <li>
                         <LinkButton className="github-btn" icon='github' text='Sourcecode' url={project.sourcecode}/>
                     </li>
