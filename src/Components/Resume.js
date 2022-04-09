@@ -38,7 +38,7 @@ class Resume extends Component {
                 <Skill icon='devicon-react-plain-wordmark'/>
                 <Skill icon='devicon-angularjs-plain'/>
                 <Skill icon='devicon-javascript-plain'/>
-                <Skill icon='devicon-typescript-plain'/>
+                <Skill icon='devicon-jest-plain'/>
                 <Skill icon='devicon-git-plain-wordmark'/>
                 <Skill icon='devicon-webpack-plain-wordmark'/>
                 <Skill icon='devicon-bootstrap-plain-wordmark'/>
