@@ -36,12 +36,12 @@ class Resume extends Component {
         const skills = (
             <div className="languages skills show-on-scroll">
                 <Skill icon='devicon-react-plain-wordmark'/>
+                <Skill icon='devicon-redux-plain'/>
                 <Skill icon='devicon-angularjs-plain'/>
                 <Skill icon='devicon-javascript-plain'/>
-                <Skill icon='devicon-typescript-plain'/>
+                <Skill icon='devicon-jest-plain'/>
                 <Skill icon='devicon-git-plain-wordmark'/>
                 <Skill icon='devicon-webpack-plain-wordmark'/>
-                <Skill icon='devicon-bootstrap-plain-wordmark'/>
                 <Skill icon='devicon-html5-plain-wordmark'/>
                 <Skill icon='devicon-css3-plain-wordmark'/>
                 <Skill icon='devicon-sass-original'/>
