@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Ignacio Casal",
-    "description": "Front End Developer with more than three years of experience.",
+    "description": "Front End Developer with 5 years of experience.",
     "image": "profilepic.jpg",
-    "bio": "I’m a self-motivated, productive Front End Developer with more than three years of experience. Currently looking for opportunities in React to keep improving this skill and learn new ones.",
+    "bio": "I am a self-motivated, productive Front End Developer with 5 years of experience, known for quick problem-solving. I am currently looking for opportunities in React to further improve this skill and acquire new ones.",
     "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
     "email": "",
     "phone": "",
@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://github.ignaciocasal.io",
-    "resumedownload": "https://drive.google.com/file/d/1kUymkEBEeY84LwSlQKSZutfpPo0cnwtm/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1eimtixGfIrrvGVn891wxgJX9deAGHvP1/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -53,31 +53,37 @@
     ],
     "work": [
       {
-        "company": "GM2dev",
-        "title": "Front End Web Developer (Remote)",
+        "company": "GapMaps -  Melbourne, Australia",
+        "title": "Front End Developer",
+        "years": "Apr 2022 - Present",
+        "description": "Web Applications development and maintenance for large-size USA company using technologies such us React, Redux, Webpack and Jest."
+      },
+      {
+        "company": "GM2dev - Argentina",
+        "title": "Front End Developer",
         "years": "May 2021 - Apr 2022",
         "description": "Web Applications development and maintenance for large-size USA company using technologies such us React, Redux, Webpack and Jest."
       },
       {
-        "company": "Vimagix (Los Ángeles - USA)",
-        "title": "Front End Web Developer (Freelance)",
+        "company": "Vimagix - United States",
+        "title": "Front End Developer (Freelance)",
         "years": "Mar 2018 - Apr 2021",
         "description": "Web Applications development and maintenance using Angular, Javascript and SCSS."
       },
       {
-        "company": "Mercado Expreso (Startup)",
-        "title": "Front End Web Developer",
+        "company": "Mercado Expreso (Startup) - Argentina",
+        "title": "Front End Developer",
         "years": "Feb 2019 – Dec 2019",
         "description": "Front end development of numerous web applications using Angular 7, Javascript, SCSS and Scrum as agile development methodology."
       },
       {
-        "company": "GlobalTurn (Startup)",
-        "title": "Front End Web Developer",
+        "company": "GlobalTurn (Startup) - Argentina",
+        "title": "Front End Developer",
         "years": "Apr 2018 – Feb 2019",
         "description": "Front end development of web applications using Angular 5, Javascript, SCSS and Scrum as agile development methodology."
       },
       {
-        "company": "Municipality of Comodoro Rivadavia",
+        "company": "Municipality of Comodoro Rivadavia - Argentina",
         "title": "Web Development Intern",
         "years": "Sep 2018 – Dec 2018",
         "description": "Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
