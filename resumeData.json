@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Ignacio Casal",
-    "description": "Front End Developer with 5 years of experience.",
+    "description": "Senior Front End Developer with 5 years of experience.",
     "image": "profilepic.jpg",
     "bio": "I am a self-motivated, productive Front End Developer with 5 years of experience, known for quick problem-solving. I am currently looking for opportunities in React to further improve this skill and acquire new ones.",
     "bio2": "I am open and willing to learn what is necessary to achieve the objectives that are presented. I am in constant professional growth keeping myself updated with the latest technologies.",
@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://github.ignaciocasal.io",
-    "resumedownload": "https://drive.google.com/file/d/1eimtixGfIrrvGVn891wxgJX9deAGHvP1/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1WWLWYatEZ9_Z3grbW9CiKfhbvVv2lmgO/view?usp=share_link",
     "social": [
       {
         "name": "linkedin",
@@ -33,8 +33,8 @@
   "resume": {
     "education": [
       {
-        "degree": "Bachelor of Information Technology",
-        "school": "UNPSJB",
+        "degree": "Bachelor of Computer Science",
+        "school": "UNPSJB - Argentina",
         "graduated": "May 2020",
         "description": ""
       },
@@ -46,7 +46,7 @@
       },
       {
         "degree": "Diploma of Programmer Analyst",
-        "school": "UNPSJB",
+        "school": "UNPSJB - Argentina",
         "graduated": "Dic 2017",
         "description": ""
       }
@@ -56,37 +56,50 @@
         "company": "GapMaps -  Melbourne, Australia",
         "title": "Front End Developer",
         "years": "Apr 2022 - Present",
-        "description": "Development and maintenance of dynamic user interfaces, along with\nissue resolution for web applications. Employing efficient code\nsolutions, I enhance performance and user experience, utilizing\nexpertise in ReactJS, HTML, and CSS to craft impactful front-end\nsolutions that drive positive outcomes."
+        "description": "I played a role in the development and maintenance of the SaaS platform.
+        Our primary goal was to offer location intelligence and mapping solutions. To
+        achieve this I utilised my skills in JavaScript (Modern JS), Typescript, React,
+        Redux and CSS to optimise the performance of the platform and increase
+        the overall user experience. Additionally, I actively solved issues and
+        contributed to refining and adapting the platform to meet the changing
+        requirements of businesses that rely on location data.
+        "
       },
       {
         "company": "GM2dev - Argentina",
         "title": "Front End Developer",
         "years": "May 2021 - Apr 2022",
-        "description": "Web Applications development and maintenance for large-size USA company using technologies such us React, Redux, Webpack and Jest."
+        "description": "Contributed the development and maintenance of web applications for a
+        significant US company that controls drone traffic. Utilised technologies such
+        as React, Redux, SCSS, Webpack, and Jest.
+        I played a leadership role in the implementation of comprehensive testing
+        using Jest, ensuring the reliability and functionality of the code and platform."
       },
       {
         "company": "Vimagix - United States",
         "title": "Front End Developer (Freelance)",
         "years": "Mar 2018 - Apr 2021",
-        "description": "Web Applications development and maintenance using Angular, Javascript and SCSS."
+        "description": "As a freelance developer, crafted and maintained web applications for
+        multilevel companies using Angular, JavaScript, Typescript, Node.js and
+        SCSS.
+        "
       },
       {
         "company": "Mercado Expreso (Startup) - Argentina",
         "title": "Front End Developer",
         "years": "Feb 2019 – Dec 2019",
-        "description": "Front end development of numerous web applications using Angular 7, Javascript, SCSS and Scrum as agile development methodology."
+        "description": "Led the front-end development of innovative e-commerce platform using
+        Angular 7, JavaScript, SCSS and Scrum as the agile development
+        methodology."
       },
       {
         "company": "GlobalTurn (Startup) - Argentina",
         "title": "Front End Developer",
         "years": "Apr 2018 – Feb 2019",
-        "description": "Front end development of web applications using Angular 5, Javascript, SCSS and Scrum as agile development methodology."
-      },
-      {
-        "company": "Municipality of Comodoro Rivadavia - Argentina",
-        "title": "Web Development Intern",
-        "years": "Sep 2018 – Dec 2018",
-        "description": "Development of web application using Oracle Application Express (APEX) as tool and Scrum as agile development methodology."
+        "description": "Led the front-end development of an innovative platform dedicated to
+        facilitating appointment scheduling for various business types. Utilised
+        Angular 5, JavaScript, SCSS and followed the Scrum methodology for agile
+        development."
       }
     ]
   },
