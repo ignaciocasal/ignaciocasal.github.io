@@ -56,50 +56,31 @@
         "company": "GapMaps -  Melbourne, Australia",
         "title": "Front End Developer",
         "years": "Apr 2022 - Present",
-        "description": "I played a role in the development and maintenance of the SaaS platform.
-        Our primary goal was to offer location intelligence and mapping solutions. To
-        achieve this I utilised my skills in JavaScript (Modern JS), Typescript, React,
-        Redux and CSS to optimise the performance of the platform and increase
-        the overall user experience. Additionally, I actively solved issues and
-        contributed to refining and adapting the platform to meet the changing
-        requirements of businesses that rely on location data.
-        "
+        "description": "I played a role in the development and maintenance of the SaaS platform. Our primary goal was to offer location intelligence and mapping solutions. To achieve this I utilised my skills in JavaScript (Modern JS), Typescript, React, Redux and CSS to optimise the performance of the platform and increase the overall user experience. Additionally, I actively solved issues and contributed to refining and adapting the platform to meet the changing requirements of businesses that rely on location data."
       },
       {
         "company": "GM2dev - Argentina",
         "title": "Front End Developer",
         "years": "May 2021 - Apr 2022",
-        "description": "Contributed the development and maintenance of web applications for a
-        significant US company that controls drone traffic. Utilised technologies such
-        as React, Redux, SCSS, Webpack, and Jest.
-        I played a leadership role in the implementation of comprehensive testing
-        using Jest, ensuring the reliability and functionality of the code and platform."
+        "description": "Contributed the development and maintenance of web applications for a significant US company that controls drone traffic. Utilised technologies such as React, Redux, SCSS, Webpack, and Jest. I played a leadership role in the implementation of comprehensive testing using Jest, ensuring the reliability and functionality of the code and platform."
       },
       {
         "company": "Vimagix - United States",
         "title": "Front End Developer (Freelance)",
         "years": "Mar 2018 - Apr 2021",
-        "description": "As a freelance developer, crafted and maintained web applications for
-        multilevel companies using Angular, JavaScript, Typescript, Node.js and
-        SCSS.
-        "
+        "description": "As a freelance developer, crafted and maintained web applications for multilevel companies using Angular, JavaScript, Typescript, Node.js and SCSS."
       },
       {
         "company": "Mercado Expreso (Startup) - Argentina",
         "title": "Front End Developer",
         "years": "Feb 2019 – Dec 2019",
-        "description": "Led the front-end development of innovative e-commerce platform using
-        Angular 7, JavaScript, SCSS and Scrum as the agile development
-        methodology."
+        "description": "Led the front-end development of innovative e-commerce platform using Angular 7, JavaScript, SCSS and Scrum as the agile development methodology."
       },
       {
         "company": "GlobalTurn (Startup) - Argentina",
         "title": "Front End Developer",
         "years": "Apr 2018 – Feb 2019",
-        "description": "Led the front-end development of an innovative platform dedicated to
-        facilitating appointment scheduling for various business types. Utilised
-        Angular 5, JavaScript, SCSS and followed the Scrum methodology for agile
-        development."
+        "description": "Led the front-end development of an innovative platform dedicated to facilitating appointment scheduling for various business types. Utilised Angular 5, JavaScript, SCSS and followed the Scrum methodology for agile development."
       }
     ]
   },
